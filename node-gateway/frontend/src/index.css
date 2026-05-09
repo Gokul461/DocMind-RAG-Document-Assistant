@@ -1,0 +1,16 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { font-family: 'Inter', system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+}
+
+.prose p:last-child { margin-bottom: 0; }
+.prose ul { margin: 0.5em 0; padding-left: 1.5em; }
+.prose ol { margin: 0.5em 0; padding-left: 1.5em; }
+.prose code { font-size: 0.85em; background: #f3f4f6; padding: 0.15em 0.4em; border-radius: 4px; }
+.prose pre { background: #1e293b; color: #e2e8f0; padding: 1em; border-radius: 8px; overflow-x: auto; }
+.prose hr { border-color: #e5e7eb; margin: 0.75em 0; }
+.prose strong { color: #111827; }

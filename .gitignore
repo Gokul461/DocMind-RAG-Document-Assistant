@@ -1,0 +1,43 @@
+# ── Python / AI Service ───────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ChromaDB vector store (large, regenerate by re-uploading docs)
+ai-service/chroma_data/
+
+# ── Node / Gateway ────────────────────────────────────
+node-gateway/node_modules/
+node-gateway/dist/
+node-gateway/docmind.db
+node-gateway/write-gateway.js
+
+# ── Frontend ──────────────────────────────────────────
+node-gateway/frontend/node_modules/
+node-gateway/frontend/dist/
+
+# ── Environment & Secrets ─────────────────────────────
+.env
+.env.local
+.env.production
+
+# ── OS Files ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Logs ──────────────────────────────────────────────
+*.log
+npm-debug.log*
